@@ -20,7 +20,6 @@ public class ConnectionUtil {
             try (Connection conn = ConnectionUtil.getConnection()) {
                 if (conn != null) {
                     System.out.println("Conexión exitosa");
-                    System.out.println("Hola Julian");
                 } else {
                     System.out.println("Error al conectar");
 
